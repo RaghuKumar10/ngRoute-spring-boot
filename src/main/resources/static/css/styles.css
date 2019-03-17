@@ -1,0 +1,36 @@
+@CHARSET "ISO-8859-1";
+
+.header{
+	width: 800px;
+	height: 80;
+	text-align: center;
+	background-color: #BDBDBD;
+}
+
+.leftMenu{
+	width: 150px;
+	height: 500px;
+	background-color: #D8D8D8;
+}
+
+.mainContent{
+	width: 650px;
+	height: 500px;
+	background-color: #E6E6E6;
+}
+
+.footer{
+	text-align: center;
+	background-color: #BDBDBD;
+}
+
+a{
+	display: block;
+	padding: 5px;
+	cursor:pointer;
+}
+
+.activeState {
+	background-color: black;
+	color: white;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Angular ngRouting</title>
+<base href="/" />
+
+<link href="/css/styles.css" rel="stylesheet" />
+<link href="/css/bootstrap.css" rel="stylesheet" />
+<script src="/js/angular.js" type="text/javascript" ></script>
+<script src="/js/angular-route.js" type="text/javascript" ></script>
+<script src="/js/custom/script.js" type="text/javascript"></script>
+<script src="/js/custom/course.service.js" type="text/javascript"></script>
+<script src="/js/custom/student.service.js" type="text/javascript"></script>
+<script src="/js/custom/routingapp.controller.js" type="text/javascript"></script>
+</head>
+<body ng-app="routingApp">
+
+	<div>
+		<div class="container-fluid text-center">
+			<h1>Welcome To ngRoute</h1>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<ul class="list-group">
+						<li class="list-group-item"><a href="/Home">Home</a></li>
+						<li class="list-group-item"><a href="/Courses">Courses</a></li>
+						<li class="list-group-item"><a href="/Students">Students</a></li>
+						
+					
+					
+					</ul>
+				</div>
+				<div class="col-md-9">
+					<ng-view></ng-view>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid text-center">
+			<h2>ngRoute</h2>
+		</div>
+	</div>
+
+	
+</body>
+</html>
